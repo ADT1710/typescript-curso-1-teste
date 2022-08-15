@@ -1,13 +1,13 @@
 import {Cadastro} from "./cadastro.js";
 
-export class Cadastros{
+export class Cadastros {
     private cadastros: Cadastro[] = [];
 
-    adiciona(cadastro: Cadastro){
+    adiciona(cadastro: Cadastro) {
         this.cadastros.push(cadastro);
     }
 
-    lista(): readonly Cadastro[]{
+    lista(): readonly Cadastro[] {
         return this.cadastros;
     }
 }
