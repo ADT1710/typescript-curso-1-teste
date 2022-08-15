@@ -1,0 +1,11 @@
+{
+  "name": "typescript-curso-1-teste",
+  "version": "1.0.0",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "server": "lite-server"
+  }
+}
